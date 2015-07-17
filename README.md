@@ -4,7 +4,7 @@ We send the Server the url of our media,
 and the hook where we wish to receive the events.
 
 - Request:
-    - URL: `server/help/image`
+    - URL: `server.com/api/help/image`
     - Type: `POST`
     - Content:
 
@@ -37,7 +37,7 @@ to signal that the helping job is done.
 ## Sending events to the client
 
 - Request:
-    - URL: `client/eventsURL`
+    - URL: `eventsURL`
     - Type: `POST`
     - Body:
 
@@ -55,7 +55,7 @@ to signal that the helping job is done.
 ## Telling the Server that we are done
 
 - Request:
-    - URL: `server/doneURL`
+    - URL: `doneURL`
     -  Type: `POST`
     -  Body:
 
