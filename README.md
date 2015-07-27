@@ -43,8 +43,18 @@ to signal that the helping job is done.
 
     ```javascript
     {
-        "type": String,
-        "content": {},
+        "type": `mousedown` | `mouseup` | `keydown`,
+        "content": {
+            // If `mousedown` or `mouseup`
+            "button": `left` | `middle` | `right`,
+            "coordinates": {
+                "x": Float
+                "y": Float
+            }
+            // If `keydown`
+            "code": Integer,
+            "modifiers": [ `ctrlKey`, `shiftKey`, `metaKey` ]
+        },
         "timestamp": Integer
     }
     ```
