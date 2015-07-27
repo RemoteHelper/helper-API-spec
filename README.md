@@ -50,7 +50,17 @@ to signal that the helping job is done.
     ```
 
 - Response:
-    - Status: `100`
+    - Status: `100` | `200`
+    - Payload (if `200`):
+    
+    ```javascript
+    {
+        "media": {
+            "type": url | raw,
+            "content": any
+        }
+    }
+    ```
 
 ## Telling the Server that we are done
 
