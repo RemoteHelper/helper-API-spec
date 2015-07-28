@@ -10,10 +10,7 @@ and the hook where we wish to receive the events.
 
     ```javascript
     {
-            "media": {
-                "type": url | raw,
-                "content": any
-            },
+            "mediaURL": url,
             "eventsURL": url
     }
     ```
@@ -66,10 +63,7 @@ to signal that the helping job is done.
     
     ```javascript
     {
-        "media": {
-            "type": url | raw,
-            "content": any
-        }
+        "mediaURL": url
     }
     ```
 
