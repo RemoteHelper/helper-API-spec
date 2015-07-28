@@ -58,6 +58,7 @@ to signal that the helping job is done.
         "timestamp": Integer
     }
     ```
+    Notice the `timestamp` property is just jQuery's [`event.timeStamp`](https://api.jquery.com/event.timeStamp/)
 
 - Response:
     - Status: `100` | `200`
