@@ -53,12 +53,12 @@ to signal that the helping job is done.
             }
             // If `keydown`
             "code": Integer,
-            "modifiers": [ `ctrlKey`, `shiftKey`, `metaKey` ]
+            "modifiers": [ `ctrlKey`, `altKey`, `shiftKey`, `metaKey` ]
         },
         "timestamp": Integer
     }
     ```
-    Notice the `timestamp` property is just jQuery's [`event.timeStamp`](https://api.jquery.com/event.timeStamp/)
+    Notice the `timestamp` property is just jQuery's [`event.timeStamp`](https://api.jquery.com/event.timeStamp/).
 
 - Response:
     - Status: `100` | `200`
