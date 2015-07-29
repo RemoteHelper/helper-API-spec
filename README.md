@@ -58,8 +58,8 @@ to signal that the helping job is done.
     Notice the `timestamp` property is just jQuery's [`event.timeStamp`](https://api.jquery.com/event.timeStamp/).
 
 - Response:
-    - Status: `100` | `200`
-    - Payload (if `200`):
+    - Status: `200`
+    - Payload (if present):
     
     ```javascript
     {
