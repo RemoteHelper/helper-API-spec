@@ -76,7 +76,8 @@ to signal that the helping job is done.
 
     ```javascript
     {
-        "authURL": userUrl
+        "authURL": userUrl,
+        "doneText": String
     }
     ```
 
